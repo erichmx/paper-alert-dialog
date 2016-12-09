@@ -3,7 +3,7 @@
   "authors": [
     "collaborne"
   ],
-  "description": "Web component that renders a material design dialog to alert user (Polymer 1.x)",
+  "description": "Web component that renders a material design dialog to alert user (Polymer 2.0-preview)",
   "main": "paper-alert-dialog.html",
   "keywords": [
     "web-components",
@@ -19,16 +19,22 @@
     "**/.*"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.0.0",
-    "iron-icon": "PolymerElements/iron-icon#^1.0.0",
-    "paper-button": "PolymerElements/paper-button#^1.0.0",
-    "paper-dialog": "PolymerElements/paper-dialog#^1.0.0"
+    "polymer": "Polymer/polymer#2.0-preview",
+    "iron-icon": "PolymerElements/iron-icon#2.0-preview",
+    "paper-button": "PolymerElements/paper-button#2.0-preview",
+    "paper-dialog": "PolymerElements/paper-dialog#2.0-preview",
+    "iron-component-page": "2.0-preview",
+    "iron-demo-helpers": "2.0-preview"
   },
   "devDependencies": {
-    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
-    "iron-icons": "PolymerElements/iron-icons#^1.0.0",
+    "iron-component-page": "PolymerElements/iron-component-page#2.0-preview",
+    "iron-icons": "PolymerElements/iron-icons#2.0-preview",
     "test-fixture": "PolymerElements/test-fixture#^1.0.0",
     "web-component-tester": "*",
-    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+    "webcomponentsjs": "webcomponents/webcomponentsjs#v1"
+  },
+  "resolutions": {
+    "polymer": "2.0-preview",
+    "webcomponentsjs": "v1"
   }
 }
